@@ -1,0 +1,39 @@
+body {
+    background: url('../images/123.jpg') repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    margin: 40px;
+    background-color: #c00;
+    height: 400px;
+    width: 400px;
+
+}
+
+.red:hover{
+    background-image: url('../images/124.jpg');
+}
+
+.image_blue {
+    border: 10px solid #000;
+    background: url('../images/123.jpg') no-repeat #00c;
+    background-position: center center;
+    height: 400px;
+    width: 400px;
+}
+
+.bg_mult{
+    background: url('../images/123.jpg') no-repeat top left, url('../images/124.jpg') no-repeat bottom right;
+    border: 10px solid #cc0;
+    height: 700px;
+    weight: 900px;
+
+}
+
+.gra{
+    background: linear-gradient(180deg, #c00,#0c0 40%, #000);
+    width: 500px;
+    height: 500px;
+}

@@ -1,0 +1,19 @@
+div {
+    background-color: #222;
+    height: 300px;
+    width: 500px;
+}
+
+.t_1 {
+    transform: rotate(15deg) scaleX(2);
+    transform-origin: 30% 0;
+}
+
+.t_5 {
+    margin-top: 200px;
+    transition-duration: 1s;
+}
+
+.t_5:hover{
+    transform: rotate(-200deg);
+}

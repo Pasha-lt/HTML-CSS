@@ -1,0 +1,32 @@
+body{
+    padding: 200px;
+}
+
+div{
+    height: 500px;
+    width: 500px;
+}
+
+
+.block1 {
+    background-color: #0c0;
+    position: relative;
+    left: 50px;
+    z-index: 3;
+}
+
+.block2 {
+    background-color: #00c;
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+}
+
+.top{
+    position: fixed;
+    background-color: #f1f;
+    height:100px;
+    width: 100%;
+    z-index: 5;
+
+}
